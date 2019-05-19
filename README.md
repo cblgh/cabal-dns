@@ -22,7 +22,7 @@ cabalDns.resolveName('foo.com', {ignoreCache: true})
 // dont use dns-over-https
 cabalDns.resolveName('foo.com', {noDnsOverHttps: true})
 
-// dont use .well-known/dat
+// dont use .well-known/cabal
 cabalDns.resolveName('foo.com', {noWellknownDat: true})
 
 // list all entries in the cache
@@ -65,10 +65,10 @@ cabalDns.on('cache-flushed', () => {...})
 **Option 1 (DNS-over-HTTPS).** Create a DNS TXT record witht he following schema:
 
 ```
-datkey={key}
+cabalkey={key}
 ```
 
-**Option 2 (.well-known/dat).** Place a file at `/.well-known/dat` with the following schema:
+**Option 2 (.well-known/cabal).** Place a file at `/.well-known/cabal` with the following schema:
 
 ```
 {cabal-url}
