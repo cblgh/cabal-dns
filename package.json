@@ -1,25 +1,26 @@
 {
-  "name": "dat-dns",
-  "version": "3.2.1",
-  "description": "Issue DNS lookups for Dat archives using HTTPS requests to the target host.",
+  "name": "cabal-dns",
+  "version": "1.0.0",
+  "description": "Issue DNS lookups for cabals using HTTPS requests to the target host.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/datprotocol/dat-dns.git"
+    "url": "git+https://github.com/cblgh/cabal-dns.git"
   },
   "keywords": [
     "dat",
-    "dns"
+    "dns",
+    "cabal"
   ],
-  "author": "Paul Frazee <pfrazee@gmail.com>",
+  "author": "cblgh <cblgh@cblgh.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/datprotocol/dat-dns/issues"
+    "url": "https://github.com/cblgh/cabal-dns/issues"
   },
-  "homepage": "https://github.com/datprotocol/dat-dns#readme",
+  "homepage": "https://github.com/cblgh/cabal-dns#readme",
   "dependencies": {
     "call-me-maybe": "^1.0.1",
     "concat-stream": "^1.6.0",
